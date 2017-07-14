@@ -9,13 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PORTFOLIO-PLOYSAI</title>
+    <title>Ploysai's Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -65,24 +71,37 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Welcome to My Portfolio</h1>
-            <h3>Ploysai's Portfolio</h3>
+            <h3>I'm very excited to meet you</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#about" class="btn btn-dark btn-lg">Let see now!</a>
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Kamolchanok Ngamponkrang</h2>
-                    <p class="lead">SIIT, Information Technology Thammasat University</p>
+                    <h2 class="section-heading" data-translate="team">About</h2>
+                    <hr class="small">
                 </div>
             </div>
-            <!-- /.row -->
+            <div class="row">
+                <div class="text-center">
+                    <div class="team-member">
+                        <img src="img/ploysai.jpg" class="img-responsive img-circle img-center" alt="">
+                        <h4 data-translate="team-name">Kamolchanok Ngamponkrang</h4>
+                        <p class="text-muted">Web & UX/UI Designer</p>
+                        <i class="fa fa-gratipay fa-fw fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p></p>
+                    <p class="large text-muted" data-translate="team-content">Hello, My name is Ploysai and i'm very please that you visit my portfolio, I'm happy and friendly person and I have a dream once to become designer, I wish my dream could come true with your help, I love to create new ideas and come-up with beautiful and useful design that can give other people happiness, I alway want to find new experience if i have a chance, lastly i really love dogs :) </br></br>I hope you enjoy my portfolio</p>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Services -->
@@ -91,12 +110,12 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Skills</h2>
+                    <h2>Skills</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x sr-icons">
                                 <img src="img/icon/ps.png" width="70" height="70"/>
                             </span>
                                 <h4>
@@ -108,7 +127,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x sr-icons">
                                 <img src="img/icon/ai.png" width="70" height="70"/>
                             </span>
                                 <h4>
@@ -118,34 +137,9 @@
 
                             </div>
                         </div>
-
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/icon/oracle.jpg" width="70" height="70"/>
-                            </span>
-                                <h4>
-                                    <strong>Oracle SQL</strong>
-                                </h4>
-                                <p></p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/icon/post.png" width="70" height="70"/>
-                            </span>
-                                <h4>
-                                    <strong>PostgreSQL</strong>
-                                </h4>
-                                <p></p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x sr-icons">
                                 <img src="img/icon/dream.png" width="70" height="70"/>
                             </span>
                                 <h4>
@@ -157,11 +151,11 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/icon/html.png" width="70" height="70"/>
+                                <span class="fa-stack fa-4x sr-icons">
+                                <img src="img/icon/oracle.jpg" width="70" height="70"/>
                             </span>
                                 <h4>
-                                    <strong>HTML/CSS</strong>
+                                    <strong>Oracle SQL</strong>
                                 </h4>
                                 <p></p>
 
@@ -169,7 +163,31 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x sr-icons">
+                                <img src="img/icon/post.png" width="70" height="70"/>
+                            </span>
+                                <h4>
+                                    <strong>PostgreSQL</strong>
+                                </h4>
+                                <p></p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x sr-icons">
+                                <img src="img/icon/html.png" width="70" height="70"/>
+                            </span>
+                                <h4>
+                                    <strong>HTML/CSS/PHP</strong>
+                                </h4>
+                                <p></p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x sr-icons">
                                 <img src="img/icon/marvel.png" width="70" height="70"/>
                             </span>
                                 <h4>
@@ -181,7 +199,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x sr-icons">
                                 <img src="img/icon/mic.png" width="70" height="70"/>
                             </span>
                                 <h4>
@@ -236,7 +254,8 @@
                                     <h4>2013-2017</h4>
                                     <h4 class="subheading">SIIT,Thammasat University</h4>
                                 </div>
-                                <div class="timeline-body">Information Technology</p>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Information Technology</p>
                                 </div>
                             </div>
                         </li>
@@ -280,58 +299,101 @@
         </div>
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Project Done</h1>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Portfolios</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://marvelapp.com/81917b/screen/4846764">
-                                    <img class="img-portfolio img-responsive" src="img/health.png">
-                                </a>
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://gis.siit.tu.ac.th/th5_2016/" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Application Design
+                                </div>
+                                <div class="project-name">
+                                    Blindmap
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://github.com/dal2kh0und/react-native-chef-master">
-                                    <img class="img-portfolio img-responsive" src="img/chef.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://gis.siit.tu.ac.th/th5_2016">
-                                    <img class="img-portfolio img-responsive" src="img/blind-2.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://drive.google.com/open?id=0B_CuNltVTzgYWnNySHdSN1dmMkU">
-                                    <img class="img-portfolio img-responsive" src="img/rideme.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
+                    </a>
                 </div>
-                <!-- /.col-lg-10 -->
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://gis.siit.tu.ac.th/th5_2016/" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Website Design
+                                </div>
+                                <div class="project-name">
+                                    Blindmap
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://marvelapp.com/81917b/screen/4846764" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Application Design
+                                </div>
+                                <div class="project-name">
+                                    Health Me
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://drive.google.com/open?id=0B_CuNltVTzgYWnNySHdSN1dmMkU" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Application Design
+                                </div>
+                                <div class="project-name">
+                                    Ride Me
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/dal2kh0und/react-native-chef-master" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Application Design
+                                </div>
+                                <div class="project-name">
+                                    Chef
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 popup-gallery">
+                    <a href="img/portfolio/thumbnails/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Processing...
+                                </div>
+                                <div class="project-name">
+                                    Waiting for more project
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Call to Action -->
@@ -339,8 +401,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Feeling impress?</h3>
-                    <p>Contact me below</p>
+                    <h3 style="color:white;">Have you seen my Project?</h3>
+                    <p>Feeling impress, Contact me below</p>
                 </div>
             </div>
         </div>
@@ -348,7 +410,7 @@
 
     <!-- Map --><!-- AIzaSyBSupqMIa656kJhudLCh6Jji2Tfq2EvVqY -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIbgCxxvpHTERKfhkjXL1uXI&key=AIzaSyCRp-0GLHdyno1ZemFbfbKzeyENF4VOLeI"></iframe>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIbgCxxvpHTERKfhkjXL1uXI&amp;key=AIzaSyCRp-0GLHdyno1ZemFbfbKzeyENF4VOLeI"></iframe>
         <br />
         <small>
             <a href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIbgCxxvpHTERKfhkjXL1uXI&key=AIzaSyBSupqMIa656kJhudLCh6Jji2Tfq2EvVqY"></a>
@@ -367,19 +429,19 @@
                         <br>Munag Saraburi 18000</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (+66) 088 294 9686</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.">iasyolp@gmail.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a class="colorC" href="mailto:name@example.">iasyolp@gmail.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/ylopias?ref=ts&fref=ts"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.facebook.com/ylopias?ref=ts&fref=ts"><i class="fa fa-facebook fa-fw fa-3x colorC"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/bciasyolp/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                            <a href="https://www.instagram.com/bciasyolp/"><i class="fa fa-instagram fa-fw fa-3x colorC"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/iasyolp"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/iasyolp"><i class="fa fa-github fa-fw fa-3x colorC"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -395,6 +457,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
